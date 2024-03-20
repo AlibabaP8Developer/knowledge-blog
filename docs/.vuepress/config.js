@@ -13,6 +13,7 @@ module.exports = {
     title: '蔡颖的博客',
     description: '蔡颖的博客',
     theme: 'reco',
+    // theme: '@vuepress/blog',
     // sidebar: true,
     // article: true,
     // comment: false,
@@ -59,7 +60,7 @@ module.exports = {
                     {
                         title: "基础",
                         path: "/java/basis/java-basic-questions-01",
-                        collapsable: false,
+                        collapsable: true,
                         children: [
                           { title: "Java基础(上)", path: "/java/basis/java-basic-questions-01.md" },
                           { title: "Java基础(中)", path: "/java/basis/java-basic-questions-02.md" },
@@ -97,7 +98,7 @@ module.exports = {
                 children: [
                     {
                         title: "MySQL", path: "/mysql/MySQL面试题-参考回答" ,
-                        collapsable: false,
+                        collapsable: true,
                         children: [
                           { title: "MySQL面试题-参考回答", path: "/mysql/MySQL面试题-参考回答.md" },
                           { title: "MySQL-Linux安装", path: "/mysql/MySQL-Linux安装.md" },
