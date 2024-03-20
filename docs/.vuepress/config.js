@@ -69,7 +69,7 @@ module.exports = {
                     {
                         title: "集合",
                         path: "/java/collection/java-collection-questions-01",
-                        collapsable: false,
+                        collapsable: true,
                         children: [
                           { title: "Java集合面试(上)", path: "/java/collection/java-collection-questions-01.md" },
                           { title: "Java集合面试(下)", path: "/java/collection/java-collection-questions-02.md" },
@@ -80,7 +80,7 @@ module.exports = {
                     {
                         title: "JVM",
                         path: "/java/jvm/JVM相关面试题",
-                        collapsable: false,
+                        collapsable: true,
                         children: [
                             {
                                 title: 'JVM相关面试题',
@@ -100,11 +100,16 @@ module.exports = {
                         collapsable: false,
                         children: [
                           { title: "MySQL面试题-参考回答", path: "/mysql/MySQL面试题-参考回答.md" },
+                          { title: "MySQL-Linux安装", path: "/mysql/MySQL-Linux安装.md" },
+                          { title: "MyCat安装文档", path: "/mysql/MyCat安装文档.md" },
+                          { title: "MySQL运维篇", path: "/mysql/MySQL运维篇.md" },
+                          { title: "MySQL进阶篇", path: "/mysql/MySQL进阶篇.md" },
+                          { title: "MySQL基础篇", path: "/mysql/MySQL基础篇.md" },
                         ]
                     },
-                    { 
+                    {
                         title: "Redis", path: "/redis/Redis面试题-参考回答",
-                        collapsable: false,
+                        collapsable: true,
                         children: [
                             { title: "Redis面试题-参考回答", path: "/redis/Redis面试题-参考回答.md" },
                             { title: "Redis单机安装&集群&哨兵", path: "/redis/Redis集群.md" },
@@ -115,6 +120,16 @@ module.exports = {
                             { title: "Redis原理篇", path: "/redis/原理篇.md" },
                         ]
                     },
+                    {
+                      title: "ElasticSearch", path: "/es/search01",
+                      collapsable: true,
+                      children: [
+                          { title: "elasticsearch(上)", path: "/es/search01.md" },
+                          { title: "elasticsearch(中)", path: "/es/day02/search02.md" },
+                          { title: "elasticsearch(下)", path: "/es/day03/search03.md" },
+                          { title: "elasticsearch安装部署", path: "/es/install-elasticsearch.md" },
+                      ]
+                  },
                 ],
             },
             {
